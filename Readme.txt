@@ -1,50 +1,44 @@
-Overview:
+# Book Store Application
 
-The Book Store Application is a graphical user interface (GUI) based software designed to manage a virtual bookstore. It offers two distinct user roles: Owner and Customer. The app provides a seamless, single-window interface where users can access various features such as adding, removing, and purchasing books, managing customers, and tracking loyalty points.
+## Overview
 
-Key Features:
+The Book Store Application is a GUI-based system for managing a virtual bookstore. It features two user roles—Owner and Customer—allowing for efficient management of book inventories, customer profiles, and transactions within a single-window interface.
 
-* Login System:
-    * The application starts with a login screen.
-    * Owners can log in using the default credentials (username: admin, password: admin).
-    * Customers log in using their unique username and password.
+## Key Features
 
-* Owner Dashboard:
-    * Owners have access to the owner-start-screen upon login.
-    * From here, they can navigate to the ‘Books’ or ‘Customers’ sections or log out.
+### Login System
+- **Initial Access**: The application launches with a login screen.
+- **Owner Login**: Owners can access the system using default credentials (`username: admin`, `password: admin`).
+- **Customer Login**: Customers use their unique credentials for access.
 
-* Books Management:
-    * Owners can add and delete books from the inventory.
-    * The ‘Books’ section displays the current inventory with book names and prices.
-    * Owners can add new books by specifying the name and price.
-    * Deletion of books is also supported.
+### Owner Dashboard
+- **Navigation**: Post-login, owners reach the owner-start-screen with options to navigate to either the 'Books' or 'Customers' sections, or to log out.
 
-* Customers Management:
-    * Owners can add and remove customer profiles.
-    * The ‘Customers’ section lists registered customers along with their usernames, passwords, and loyalty points.
-    * Owners can add new customers by providing a username and password.
-    * Deletion of customer profiles is also supported.
+### Books Management
+- **Inventory Control**: Owners can add to or delete books from the inventory.
+- **Display and Interaction**: The 'Books' section shows available inventory with names and prices, allowing for the addition of new books or deletion of existing ones.
 
-* Customer Dashboard:
-    * Registered customers access their dashboard upon login.
-    * The dashboard displays their name, earned points, and status (Silver or Gold) based on points.
+### Customers Management
+- **Profile Management**: Owners can add or remove customer profiles.
+- **Customer List**: Displays registered customers with details such as usernames, passwords, and loyalty points, with options to add or delete profiles.
 
-* Book Purchases:
-    * Customers can browse available books in the bookstore.
-    * They can select one or more books for purchase.
-    * The ‘Buy’ button allows customers to make a purchase with currency.
-    * The ‘Redeem points and Buy’ button lets customers use their loyalty points for discounts.
-    * Loyalty points accumulate based on the amount spent and are redeemed for discounts.
+### Customer Dashboard
+- **User Interface**: Upon login, customers view their dashboard showing their name, accrued points, and status (Silver or Gold).
 
-Technical Details:
-* The application is implemented in Java using JavaFX for the graphical user interface.
-* Data for books and customers is stored in the ‘books.txt’ and ‘customers.txt’ files.
-* Upon exit, current data is written to these files, and upon startup, data is loaded from these files.
+### Book Purchases
+- **Shopping**: Customers can browse and select books for purchase.
+- **Transactions**: Purchases can be made with currency via the 'Buy' button, or by redeeming loyalty points for discounts through the 'Redeem points and Buy' button.
+- **Loyalty Points**: Points are earned based on expenditure and can be redeemed for discounts.
 
-Conclusion:
-The Book Store Application is an intuitive and efficient way to manage a virtual bookstore. Owners can easily control the inventory and customer database, while customers can make purchases and track their loyalty points. This project demonstrates proficiency in Java and JavaFX for building practical, user-friendly applications.
+## Technical Details
+- **Framework**: Developed in Java with JavaFX for the GUI.
+- **Data Management**: Book and customer data are stored and managed through `books.txt` and `customers.txt`.
+- **Session Handling**: Data is saved upon exit and loaded at startup.
 
-Tools Used:
-* Java
-* JavaFX
-* Visual Paradigm for UML Diagrams
+## Conclusion
+The Book Store Application offers an intuitive and comprehensive platform for bookstore management, merging inventory and customer management with transactional capabilities. This project showcases the application of Java and JavaFX in creating functional, user-friendly software.
+
+## Tools Used
+- Java
+- JavaFX
+- Visual Paradigm (for UML Diagrams)
